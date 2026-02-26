@@ -1,0 +1,99 @@
+{
+  "projectType": "saas",
+  "projectName": "Pointer",
+  "projectDescription": "A collaborative thinking workspace with tasks, rich notes, knowledge graphs, and whiteboards for organizing ideas.",
+  "theme": "palm",
+  "primaryColor": "#6366f1",
+  "lightColor": "#818cf8",
+  "darkColor": "#4f46e5",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/tasks",
+              "features/notes",
+              "features/graph-view",
+              "features/whiteboards",
+              "features/collaboration"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/organizing-knowledge",
+              "guides/keyboard-shortcuts",
+              "guides/desktop-app"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "integrations/convex",
+              "integrations/authentication"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "api/overview"
+            ]
+          },
+          {
+            "group": "Convex Functions",
+            "pages": [
+              "api/notes",
+              "api/tasks",
+              "api/whiteboards",
+              "api/graph"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Task Management with due dates and tags",
+    "Rich Text Editor with TipTap",
+    "Knowledge Graph Visualization",
+    "Collaborative Whiteboards",
+    "Real-time Collaboration",
+    "Desktop App via Tauri",
+    "Folder-based Organization",
+    "Document History & Version Control"
+  ],
+  "publicApiSurface": [
+    "notes.create",
+    "notes.update",
+    "notes.delete",
+    "notes.list",
+    "notes.get",
+    "taskManagement.createTask",
+    "taskManagement.updateTask",
+    "taskManagement.deleteTask",
+    "taskManagement.listTasks",
+    "whiteboards.create",
+    "whiteboards.update",
+    "whiteboards.delete",
+    "whiteboards.list",
+    "graph.getNodes",
+    "noteVersions.createSnapshot",
+    "noteVersions.getHistory"
+  ]
+}
